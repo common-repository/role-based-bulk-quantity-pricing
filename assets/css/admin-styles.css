@@ -1,0 +1,139 @@
+/* Temp fix to override Bootstrap style */
+ol, ul {
+    padding-left: 0;
+}
+
+.rbbqp-brand-logo-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+img.rbbqp-brand-logo {
+    width: 170px;
+    text-align: center;
+}
+.rbbqp_custom_submit_button {
+    margin-top: 30px;
+    padding: 20px;
+    width: 100%;
+    border-radius: 15px;
+    background-color: #211257;
+    color: white;
+    font-size: 20px;
+}
+
+.rbbqp_custom_checkbox_input
+{
+    /* Double-sized Checkboxes */
+  -ms-transform: scale(1.5); /* IE */
+  -moz-transform: scale(1.5); /* FF */
+  -webkit-transform: scale(1.5); /* Safari and Chrome */
+  -o-transform: scale(1.5); /* Opera */
+  padding: 10px;
+}
+
+.rbbqp_custom_label {
+    font-size: 1.2em;
+}
+
+.rbbqp-wrapper {
+    position: relative;
+}
+  
+.rbbqp-loader {
+position: absolute;
+width: 100%;
+height: 100%;
+background-color: rgba(0,0,0,.2);
+text-align: center;
+}
+  
+
+/** https://loading.io/css/ **/
+.lds-dual-ring {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    position: relative;
+    top: 25%;
+}
+
+.lds-dual-ring:after {
+    content: " ";
+    display: block;
+    width: 64px;
+    height: 64px;
+    margin: 8px;
+    border-radius: 50%;
+    border: 6px solid #fff;
+    border-color: #fff transparent #fff transparent;
+    animation: lds-dual-ring 1.2s linear infinite;
+}
+@keyframes lds-dual-ring {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.rbbqp_label_info {
+    margin-left: 20px;
+}
+
+/* STEPS */
+.wizard > .steps .current-info, .wizard > .steps .number {
+    display: none; }
+
+
+.actions ul {
+    display: flex;
+    margin-top: 30px;
+    justify-content: flex-start; }
+    .actions ul.step-last {
+        justify-content: flex-end; }
+        .actions ul.step-last li:first-child {
+        display: none; }
+    .actions li a {
+    padding: 0;
+    border: none;
+    display: inline-flex;
+    height: 51px;
+    width: 135px;
+    align-items: center;
+    background: #eb9a17;
+    cursor: pointer;
+    position: relative;
+    padding-left: 40px;
+    color: #333;
+    text-decoration: none;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    font-weight: 600; }
+    .actions li a:hover {
+        background: #d9bda3; }
+        .actions li a:hover:before {
+        -webkit-animation-name: hvr-icon-wobble-horizontal;
+        animation-name: hvr-icon-wobble-horizontal;
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-timing-function: ease-in-out;
+        animation-timing-function: ease-in-out;
+        -webkit-animation-iteration-count: 1;
+        animation-iteration-count: 1; }
+    .actions li[aria-disabled="true"] a {
+    display: none; }
+    .actions li:first-child a {
+    background: #e6e6e6;
+    padding-left: 48px; }
+    .actions li:first-child a:hover {
+        background: #ccc; }
+    .actions li:last-child a {
+    padding-left: 29px;
+    width: 167px;
+    font-weight: 400; }
+    .actions li:last-child a:before {
+        right: 30px; }

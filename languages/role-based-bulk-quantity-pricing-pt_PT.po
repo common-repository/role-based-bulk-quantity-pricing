@@ -1,0 +1,263 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Role Based Bulk Quantity Pricing\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-03-29 13:13+0000\n"
+"PO-Revision-Date: 2023-08-13 12:51+0000\n"
+"Last-Translator: \n"
+"Language-Team: Portuguese (Portugal)\n"
+"Language: pt_PT\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.4; wp-6.1.1\n"
+"X-Domain: role-based-bulk-quantity-pricing"
+
+#: role-based-bulk-quantity-pricing.php:179
+#, php-format
+msgid ""
+"%1$s requires WooCommerce installed and active. You can download WooCommerce "
+"latest version %2$s OR go back to %3$s."
+msgstr ""
+"%1$s requere o WooCommerce instalado e ativo. Pode fazer download da última "
+"versão do WooCommerce %2$s OU voltar para %3$s."
+
+#: role-based-bulk-quantity-pricing.php:122
+#: inc/class-rbbqp-product-helper.php:205
+#: inc/class-rbbqp-product-helper.php:258
+#: inc/class-rbbqp-product-helper.php:261
+msgid "(with VAT)"
+msgstr "(com IVA)"
+
+#: role-based-bulk-quantity-pricing.php:123
+#: inc/class-rbbqp-product-helper.php:206
+#: inc/class-rbbqp-product-helper.php:259
+#: inc/class-rbbqp-product-helper.php:262
+msgid "(without VAT)"
+msgstr "(sem IVA)"
+
+#: role-based-bulk-quantity-pricing.php:181
+msgid ""
+"<strong><a href=\"https://downloads.wordpress.org/plugin/woocommerce.latest-"
+"stable.zip\">from here</a></strong>"
+msgstr ""
+"<strong><a href=\"https://downloads.wordpress.org/plugin/woocommerce.latest-"
+"stable.zip\">clicando aqui</a></strong>"
+
+#: role-based-bulk-quantity-pricing.php:180
+msgid "<strong>Role Based Bulk Quantity Pricing</strong>"
+msgstr "<strong>Role Based Bulk Quantity Pricing</strong>"
+
+#: inc/admin/class-rbbqp-settings.php:206
+msgid ""
+"A message saying whether the price includes or not taxes will be displayed "
+"next to the product price."
+msgstr ""
+"Uma mensagem a indicar se o preço incluí ou não impostos será mostrada junto "
+"dos preços dos produtos."
+
+#: inc/admin/class-rbbqp-settings.php:51
+#, php-format
+msgid "A total of: %s lines were uploaded with success!"
+msgstr "Um total de: %s linhas foram carregadas com sucesso!"
+
+#: inc/admin/class-rbbqp-settings.php:224
+msgid "Advanced"
+msgstr "Avançado"
+
+#: inc/admin/class-rbbqp-settings.php:175
+msgid "Allow For Guest"
+msgstr "Permitir para visitantes"
+
+#: inc/class-rbbqp-product-helper.php:171
+msgid "Assigned Roles"
+msgstr "Papéis atribuidos"
+
+#: inc/admin/class-rbbqp-settings.php:329
+msgid "Base Unit Price"
+msgstr "Preço Unitário Base"
+
+#: inc/admin/class-rbbqp-settings.php:216
+msgid ""
+"Comma-separated list, without spaces, all lower case (equal to the CSV file)."
+msgstr ""
+"Lista separada por vírgulas, sem espaços, tudo em letra minúscula (igual ao "
+"ficheiro CSV)."
+
+#: inc/admin/class-rbbqp-settings.php:82 inc/admin/class-rbbqp-settings.php:83
+#: inc/admin/class-rbbqp-settings.php:93
+msgid "Configurations"
+msgstr "Configurações"
+
+#: inc/admin/class-rbbqp-settings.php:119
+msgid "Configurations saved!"
+msgstr "Configurações guardadas!"
+
+#: inc/class-rbbqp-tax-helper.php:212
+msgid "Country"
+msgstr "País"
+
+#: inc/admin/class-rbbqp-settings.php:74 inc/admin/class-rbbqp-settings.php:75
+#: inc/admin/class-rbbqp-settings.php:299
+msgid "Dashboard"
+msgstr "Dashboard"
+
+#: inc/admin/class-rbbqp-settings.php:228
+msgid "Debug Mode"
+msgstr "Modo de Depuração"
+
+#: inc/admin/class-rbbqp-settings.php:184
+msgid "Display Product Total"
+msgstr "Mostrar totais do produto"
+
+#: inc/admin/class-rbbqp-settings.php:202
+msgid "Display Tax Information"
+msgstr "Mostrar Informação de Impostos"
+
+#: inc/admin/class-rbbqp-settings.php:305
+msgid "Export CSV"
+msgstr "Exportar CSV"
+
+#: inc/admin/class-rbbqp-settings.php:308
+msgid "Export Products List"
+msgstr "Exportar Lista de Produtos"
+
+#: inc/admin/class-rbbqp-settings.php:312
+msgid "Export Roles List"
+msgstr "Exportar Lista de Papéis"
+
+#: inc/class-rbbqp-product-helper.php:269
+#, php-format
+msgid "From: %s"
+msgstr "A partir de: %s"
+
+#: inc/class-rbbqp-product-helper.php:255
+#, php-format
+msgid "From: %s %s"
+msgstr "A partir de: %s %s"
+
+#: inc/admin/class-rbbqp-settings.php:212
+msgid "Hide taxes on product page for roles"
+msgstr "Esconder impostos nas páginas de produtos para os papéis"
+
+#. Author URI of the plugin
+msgid "https://kevamorim.com"
+msgstr "https://kevamorim.com"
+
+#: inc/admin/class-rbbqp-settings.php:327
+msgid "ID"
+msgstr "ID"
+
+#: inc/class-rbbqp-tax-helper.php:68
+msgid "Ignored"
+msgstr "Ignorado"
+
+#: inc/admin/class-rbbqp-settings.php:353
+msgid "Import CSV"
+msgstr "Importar CSV"
+
+#. Author of the plugin
+msgid "Kevin Amorim"
+msgstr "Kevin Amorim"
+
+#: inc/admin/class-rbbqp-admin-ajax.php:222
+#, php-format
+msgid ""
+"Line: %1$s is invalid. Please fix it and try again. Nothing was uploaded."
+msgstr ""
+"Linha: %1$s é inválida. Por favor, corrija e tente novamente. Nada foi "
+"carregado."
+
+#: inc/class-rbbqp-tax-helper.php:88 inc/class-rbbqp-tax-helper.php:94
+msgid "No tax rate found for product."
+msgstr "Nenhuma taxa de imposto encontrada para este produto."
+
+#: role-based-bulk-quantity-pricing.php:182
+msgid "plugins page"
+msgstr "página de plugins"
+
+#: inc/admin/class-rbbqp-settings.php:50 inc/admin/class-rbbqp-settings.php:309
+#: inc/admin/class-rbbqp-settings.php:313
+msgid "Processing... Please wait!"
+msgstr "A processar... Por favor aguarde!"
+
+#: inc/class-rbbqp-product-helper.php:136
+msgid "Product Total:"
+msgstr "Total:"
+
+#: inc/admin/class-rbbqp-settings.php:328
+msgid "Role"
+msgstr "Papel"
+
+#. Name of the plugin
+#: inc/admin/class-rbbqp-settings.php:65 inc/admin/class-rbbqp-settings.php:66
+msgid "Role Based Bulk Quantity Pricing"
+msgstr "Role Based Bulk Quantity Pricing"
+
+#: inc/admin/class-rbbqp-settings.php:127
+msgid "Save"
+msgstr "Guardar"
+
+#: inc/class-rbbqp-tax-helper.php:225
+msgid "Tax error"
+msgstr "Erro de impostos"
+
+#: inc/class-rbbqp-tax-helper.php:198
+msgid "Tax Rate"
+msgstr "Taxa de imposto"
+
+#: inc/admin/class-rbbqp-settings.php:198
+msgid "Taxes"
+msgstr "Impostos"
+
+#: inc/admin/class-rbbqp-settings.php:217
+msgid "Taxes will not be displayed on the product page for the selected roles."
+msgstr ""
+"Os impostos não serão mostrados na página de produto para os papéis "
+"selecionados."
+
+#: inc/admin/class-rbbqp-admin-ajax.php:203
+#, php-format
+msgid "The CSV is not correctly formatted. Missing column(s) for row: %1$s"
+msgstr ""
+"O ficheiro CSV não está corretamente formatado. Faltam coluna(s) para a "
+"linha: %1$s."
+
+#: inc/admin/class-rbbqp-settings.php:358
+msgid ""
+"The uploaded file is processing... Please, do not leave or refresh this page."
+msgstr ""
+"O ficheiro carregado está a ser processado. Por favor, não abandone e não "
+"atualize a página"
+
+#: inc/admin/class-rbbqp-admin-ajax.php:240
+msgid "This is not a CSV file."
+msgstr "Não é um ficheiro CSV."
+
+#: inc/admin/class-rbbqp-settings.php:331
+msgid "Threshold Quantity"
+msgstr "Quantidade para Desconto"
+
+#: inc/admin/class-rbbqp-settings.php:330
+msgid "Threshold Unit Price"
+msgstr "Preço Unitário com Desconto"
+
+#: inc/class-rbbqp-product-helper.php:147
+msgid "Unit Price:"
+msgstr "Preço Unitário:"
+
+#. Description of the plugin
+msgid "Use a CSV file to set bulk quantity pricing by roles, for WooCommerce."
+msgstr ""
+"Utilize um ficheiro CSV para definir preços por quantidade e papéis, para "
+"WooCommerce."
+
+#: inc/admin/class-rbbqp-settings.php:157
+msgid "Use Roles"
+msgstr "Utilizar Papéis"
+
+#: inc/admin/class-rbbqp-settings.php:166
+msgid "Use Total Cart Quantity"
+msgstr "Utilizar Total do Carrinho"
